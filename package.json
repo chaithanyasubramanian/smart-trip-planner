@@ -1,0 +1,30 @@
+{
+  "name": "smart-trip-planner-react",
+  "version": "3.0.0",
+  "private": true,
+  "description": "India-first React Smart Trip Planner with protected administrator console, destination management, reports and travel safety advisories.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "node server.js",
+    "dev:server": "node --watch server.js",
+    "admin:create": "node admin_create.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.5"
+  }
+}
